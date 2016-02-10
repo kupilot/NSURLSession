@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/14-09-22_Roark_Swift.pdf</string>
+		<key>fileName</key>
+		<string>Roark Swift Programming</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/advs.pdf</string>
+		<key>fileName</key>
+		<string>Adventure</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/cbt14-Short%20Stories%20For%20Children.pdf</string>
+		<key>fileName</key>
+		<string>Short Stories For Children</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/CocoaFundamentals.pdf</string>
+		<key>fileName</key>
+		<string>Cocoa Fundementals</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/FortyStories.pdf</string>
+		<key>fileName</key>
+		<string>Forty Stories</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/GettingStarted.pdf</string>
+		<key>fileName</key>
+		<string>Getting Started</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/ios_tutorial.pdf</string>
+		<key>fileName</key>
+		<string>iOS Tutorial</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/iphonetutorial.pdf</string>
+		<key>fileName</key>
+		<string>iPhone Tutorial</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/java_tutorial.pdf</string>
+		<key>fileName</key>
+		<string>JAVA Tutorial</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/javanotes6-linked.pdf</string>
+		<key>fileName</key>
+		<string>Java 6 Tutorial</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/javap_programming_language_handbook.pdf</string>
+		<key>fileName</key>
+		<string>Java programming</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/Stage_3_-_Erich_Segal_-_Love_Story.pdf</string>
+		<key>fileName</key>
+		<string>Love Story</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/Swift%20Programming%20Language.pdf</string>
+		<key>fileName</key>
+		<string>Swift Programming</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/SwiftLanguage.pdf</string>
+		<key>fileName</key>
+		<string>Swift Language</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/userguide.pdf</string>
+		<key>fileName</key>
+		<string>User Guide</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/wrox-beginning-iphone-sdk-programming-with-objective-c-jan-2010.pdf</string>
+		<key>fileName</key>
+		<string>iOS Programming book</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/Android_3-6-CC.pdf</string>
+		<key>fileName</key>
+		<string>Android Programming 1</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/android_tutorial.pdf</string>
+		<key>fileName</key>
+		<string>Android Programming 2</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/android_tutorial.pdf</string>
+		<key>fileName</key>
+		<string>Android Tutorial</string>
+	</dict>
+	<dict>
+		<key>fileURL</key>
+		<string>https://dl.dropboxusercontent.com/u/93114823/Programming%20in%20Objective-C%20-%20Stephen%20G.%20Kochan.pdf</string>
+		<key>fileName</key>
+		<string>Objective C Programming</string>
+	</dict>
+</array>
+</plist>

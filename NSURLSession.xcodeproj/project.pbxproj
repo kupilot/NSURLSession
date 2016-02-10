@@ -13,6 +13,10 @@
 		761E5DD91C6B73D20058A7EF /* NSURLSession.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 761E5DD71C6B73D20058A7EF /* NSURLSession.xcdatamodeld */; };
 		761E5DDB1C6B73D20058A7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761E5DDA1C6B73D20058A7EF /* Assets.xcassets */; };
 		761E5DDE1C6B73D20058A7EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761E5DDC1C6B73D20058A7EF /* LaunchScreen.storyboard */; };
+		761E5DE61C6B75380058A7EF /* FileList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 761E5DE51C6B75380058A7EF /* FileList.plist */; };
+		761E5DE81C6B7F030058A7EF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E5DE71C6B7F030058A7EF /* CustomCell.swift */; };
+		761E5DEB1C6B80290058A7EF /* File+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E5DE91C6B80290058A7EF /* File+CoreDataProperties.swift */; };
+		761E5DEC1C6B80290058A7EF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E5DEA1C6B80290058A7EF /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		761E5DDA1C6B73D20058A7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761E5DDD1C6B73D20058A7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		761E5DDF1C6B73D20058A7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761E5DE51C6B75380058A7EF /* FileList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FileList.plist; sourceTree = "<group>"; };
+		761E5DE71C6B7F030058A7EF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		761E5DE91C6B80290058A7EF /* File+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "File+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		761E5DEA1C6B80290058A7EF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		761E5DCF1C6B73D20058A7EF /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
+				761E5DE91C6B80290058A7EF /* File+CoreDataProperties.swift */,
+				761E5DEA1C6B80290058A7EF /* File.swift */,
 				761E5DD01C6B73D20058A7EF /* AppDelegate.swift */,
 				761E5DD21C6B73D20058A7EF /* ViewController.swift */,
 				761E5DD41C6B73D20058A7EF /* Main.storyboard */,
+				761E5DE71C6B7F030058A7EF /* CustomCell.swift */,
+				761E5DE51C6B75380058A7EF /* FileList.plist */,
 				761E5DDA1C6B73D20058A7EF /* Assets.xcassets */,
 				761E5DDC1C6B73D20058A7EF /* LaunchScreen.storyboard */,
 				761E5DDF1C6B73D20058A7EF /* Info.plist */,
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761E5DE61C6B75380058A7EF /* FileList.plist in Resources */,
 				761E5DDE1C6B73D20058A7EF /* LaunchScreen.storyboard in Resources */,
 				761E5DDB1C6B73D20058A7EF /* Assets.xcassets in Resources */,
 				761E5DD61C6B73D20058A7EF /* Main.storyboard in Resources */,
@@ -139,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				761E5DD31C6B73D20058A7EF /* ViewController.swift in Sources */,
+				761E5DEC1C6B80290058A7EF /* File.swift in Sources */,
 				761E5DD11C6B73D20058A7EF /* AppDelegate.swift in Sources */,
+				761E5DEB1C6B80290058A7EF /* File+CoreDataProperties.swift in Sources */,
+				761E5DE81C6B7F030058A7EF /* CustomCell.swift in Sources */,
 				761E5DD91C6B73D20058A7EF /* NSURLSession.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waleedalware.NSURLSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waleedalware.NSURLSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
